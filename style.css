@@ -83,3 +83,68 @@ h2:hover{
     font-size: large;
     text-decoration: underline white;
 }
+
+/* === Tablet View (Portrait and Landscape) === */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        padding: 15px;
+    }
+
+    .header {
+        padding: 120px 30px;
+        height: auto;
+        border-width: 4px;
+    }
+
+    .main {
+        padding: 35px 25px;
+        font-size: large;
+    }
+
+    h1, h2 {
+        font-size: 1.6rem;
+    }
+
+    .img {
+        width: 90%;
+    }
+
+    .footer {
+        padding: 14px;
+        font-size: medium;
+    }
+}
+
+/* === Mobile View === */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .header {
+        padding: 80px 10px;
+        height: auto;
+        border-width: 3px;
+    }
+
+    .main {
+        padding: 20px 10px;
+        font-size: small;
+    }
+
+    h1, h2 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .img {
+        width: 100%;
+        display: block;
+    }
+
+    .footer {
+        padding: 10px;
+        font-size: small;
+        border-width: 3px;
+    }
+}
